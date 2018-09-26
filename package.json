@@ -1,0 +1,20 @@
+{
+    "name": "casamentos-download",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node .",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "node_modules/.bin/eslint .",
+        "postinstall": "ln -Fs ../../git-hooks/pre-commit.sh .git/hooks/pre-commit"
+    },
+    "author": "António Ramadas",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^5.4.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.14.0"
+    }
+}
