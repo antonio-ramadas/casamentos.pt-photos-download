@@ -11,7 +11,12 @@
     },
     "author": "António Ramadas",
     "license": "MIT",
-    "dependencies": {},
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "got": "^9.2.2",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.2"
+    },
     "devDependencies": {
         "eslint": "^5.4.0",
         "eslint-config-airbnb-base": "^13.1.0",
